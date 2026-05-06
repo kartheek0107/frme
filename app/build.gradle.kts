@@ -77,7 +77,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     // ── CameraX ───────────────────────────────────────────────────────────────
-    val cameraxVersion = "1.3.2"
+    val cameraxVersion = "1.4.1"
     implementation("androidx.camera:camera-core:$cameraxVersion")
     implementation("androidx.camera:camera-camera2:$cameraxVersion")    // Camera2 under the hood
     implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
